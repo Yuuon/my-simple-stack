@@ -1,30 +1,30 @@
 package interface_simple_stack;
 
-/**
+/** kkk
  * Created by Administrator on 2016/11/3.
  */
-public class Item {
+class Item {
     private int numero;
-    private char nom;
+    private String nom;
 
-    public Item(int numero, char nom) {
+    Item(int numero, String nom) {
         this.numero = numero;
         this.nom = nom;
     }
 
-    public int getNumero() {
+    int getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    void setNumero(int numero) {
         this.numero = numero;
     }
 
-    public char getNom() {
+    String getNom() {
         return nom;
     }
 
-    public void setNom(char nom) {
+    void setNom(String nom) {
         this.nom = nom;
     }
 }
